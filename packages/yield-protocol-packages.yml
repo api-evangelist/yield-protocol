@@ -1,0 +1,73 @@
+generated: '2026-07-21'
+method: searched
+source: npm registry (@yield-protocol scope) + github.com/yieldprotocol
+notes: >-
+  Yield Protocol is a decentralized (Ethereum smart-contract) protocol, now
+  closed. It ships no REST/HTTP client SDKs; its first-party developer packages
+  are Solidity contract/interface libraries published to npm under the official
+  @yield-protocol scope, consumed by developers integrating with the on-chain
+  protocol. All packages below were verified live in the npm registry.
+packages:
+- name: '@yield-protocol/vault-v2'
+  registry: npm
+  official: true
+  version: 0.18.14
+  language: solidity
+  license: GPL-3.0-or-later
+  description: Yield Collateralized Debt Engine v2 (v2 debt vault implementation).
+  url: https://www.npmjs.com/package/@yield-protocol/vault-v2
+  repository: https://github.com/yieldprotocol/vault-v2
+- name: '@yield-protocol/utils-v2'
+  registry: npm
+  official: true
+  version: 2.6.18
+  language: solidity
+  license: GPL-3.0-or-later
+  description: Yield v2 utility contracts (AccessControl, SafeCast, fixed-point math).
+  url: https://www.npmjs.com/package/@yield-protocol/utils-v2
+  repository: https://github.com/yieldprotocol/yield-utils-v2
+- name: '@yield-protocol/yieldspace-tv'
+  registry: npm
+  official: true
+  version: 0.1.11
+  language: solidity
+  license: BUSL-1.1
+  description: YieldSpace AMM for fyTokens and tokenized vault tokens.
+  url: https://www.npmjs.com/package/@yield-protocol/yieldspace-tv
+  repository: https://github.com/yieldprotocol/yieldspace-tv
+- name: '@yield-protocol/strategy-v2'
+  registry: npm
+  official: true
+  version: 2.1.0-rc.1
+  language: solidity
+  license: GPL-3.0-or-later
+  description: YieldSpace v2 liquidity-providing strategy contracts.
+  url: https://www.npmjs.com/package/@yield-protocol/strategy-v2
+  repository: https://github.com/yieldprotocol/strategy-v2
+- name: '@yield-protocol/vault-interfaces'
+  registry: npm
+  official: true
+  version: 2.5.0
+  language: solidity
+  license: GPL-3.0-or-later
+  description: Yield Protocol vault interfaces and supporting libraries.
+  url: https://www.npmjs.com/package/@yield-protocol/vault-interfaces
+  repository: https://github.com/yieldprotocol/vault-interfaces
+- name: '@yield-protocol/yieldspace-interfaces'
+  registry: npm
+  official: true
+  version: 2.3.2
+  language: solidity
+  license: GPL-3.0-or-later
+  description: YieldSpace interfaces.
+  url: https://www.npmjs.com/package/@yield-protocol/yieldspace-interfaces
+  repository: https://github.com/yieldprotocol/yieldspace-interfaces
+- name: '@yield-protocol/utils'
+  registry: npm
+  official: true
+  version: 1.3.0
+  language: solidity
+  license: GPL-3.0-or-later
+  description: Reusable Solidity contracts used across Yield projects.
+  url: https://www.npmjs.com/package/@yield-protocol/utils
+  repository: https://github.com/yieldprotocol/yield-utils

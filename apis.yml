@@ -1,8 +1,29 @@
 aid: yield-protocol
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yield-protocol.png
 name: Yield Protocol
-description: 'Yield Protocol is a company surfaced as a portfolio company of paradigm and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-defi. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Yield Protocol was a decentralized Ethereum protocol that brought fixed-rate,
+  fixed-term borrowing and lending to DeFi via collateralized debt vaults and its
+  YieldSpace automated market maker for fyTokens (fixed-yield tokens). Backed by
+  Paradigm, the protocol reached a v2 implementation before winding down, and the
+  yieldprotocol.com site now displays a closure notice. There is no REST/HTTP API
+  surface; Yield Protocol is consumed on-chain through its Solidity smart contracts,
+  with first-party developer libraries (vaults, interfaces, YieldSpace AMM, utility
+  contracts) published to npm under the official @yield-protocol scope and source
+  code maintained across the github.com/yieldprotocol organization. This profile was
+  surfaced as a Paradigm portfolio company and enriched from public package and
+  repository evidence.
 url: https://raw.githubusercontent.com/api-evangelist/yield-protocol/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto Defi
+- DeFi
+- Ethereum
+- Lending
+- Fixed Rate
+- Smart Contracts
+- Solidity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://yieldprotocol.com
+- type: GitHubOrganization
+  url: https://github.com/yieldprotocol
+- type: Packages
+  url: packages/yield-protocol-packages.yml
+- type: SDKs
+  url: packages/yield-protocol-packages.yml
+- type: DomainSecurity
+  url: security/yield-protocol-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
